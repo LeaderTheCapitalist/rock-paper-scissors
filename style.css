@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    padding-top: 10vh;
+    gap: 5vh;
+    color: hsl(0, 0%, 80%);
+    background-color: hsl(0, 0%, 10%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 8vh;
+}
+
+h2 {
+    font-size: 6vh;
+}
+
+h3 {
+    font-size: 3vh;
+}
+
+#choices {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+#choices > *,
+button {
+    padding: 1vw;
+    border: 0.3vw solid hsl(0, 0%, 85%);
+    border-radius: 50%;
+    background-color: hsl(200, 100%, 50%);
+    cursor: pointer;
+    user-select: none;
+}
+
+#choices > *:hover,
+button:hover {
+    background-color: hsl(190, 100%, 50%);
+}
+
+#choices > *:active,
+button:active {
+    background-color: hsl(180, 100%, 50%);
+}
+
+#playerScore {
+    color: hsl(125 100% 60%);
+}
+
+#computerScore {
+    color: hsl(0 100% 60%);
+}
+
+button {
+    font-size: 4rem;
+    border-radius: 2rem;
+}

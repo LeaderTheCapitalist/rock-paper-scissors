@@ -61,10 +61,12 @@ function game(playerChoice){
 reset.onclick = function(){
     playerScore = 0
     computerScore = 0
+    result.textContent = ""
     updateScore()
 }
 
 function updateScore(){
     playerScoreText.textContent = playerScore
     computerScoreText.textContent = computerScore
+
 }
